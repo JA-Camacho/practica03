@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormularioComponent implements OnInit {
   ngOnInit():void {}
-  ruc:string='99999999001';
-  valor:number=0.0;;
-  gasto:string='Ninguno';
+  ruc:string='';
+  valor:number=0.0;
+  gasto:string='Escoja el tipo de gasto';
 }

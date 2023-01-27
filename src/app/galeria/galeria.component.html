@@ -1,5 +1,5 @@
-<ul>
-    <li *ngFor="let deducible of deducibles">
+<ul class="list-group list-group-horizontal list-group-flush">
+    <li class="list-group-item" *ngFor="let deducible of deducibles">
       <div class="card" style="width: 18rem;">
         <img src={{deducible.imagen}} class="card-img-top" alt={{deducible.nombre}} />
         <div class="card-body">

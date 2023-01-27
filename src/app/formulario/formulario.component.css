@@ -6,3 +6,14 @@ form {
   max-width: 25em;
   margin: 1em auto;
 }
+
+th, td {
+  border: 1px solid;
+  border-collapse: inherit;
+}
+
+table{
+  width: 100%;
+  border-collapse: inherit;
+  max-width: 696px;
+}

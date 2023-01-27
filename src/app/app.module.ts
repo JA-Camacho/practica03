@@ -11,6 +11,7 @@ import { ReporteComponent } from './reporte/reporte.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
 import { GastoService } from './gasto.service';
+import { ReporteUsuarioComponent } from './reporte-usuario/reporte-usuario.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { GastoService } from './gasto.service';
     InformacionComponent,
     MenuComponent,
     FormularioComponent,
-    ReporteComponent
+    ReporteComponent,
+    ReporteUsuarioComponent
   ],
   imports: [
     BrowserModule,
